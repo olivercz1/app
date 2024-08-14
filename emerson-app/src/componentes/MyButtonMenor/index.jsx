@@ -4,6 +4,7 @@ export default function MyButtondois(props) {
     return (
         <div style={{ margin: '10px' }}>
             <Button
+                type={props.type}
                 variant={props.variant}
                 size={props.size}
                 endIcon={props.icon}
@@ -24,10 +25,4 @@ export default function MyButtondois(props) {
         </div>
     );
 }
-
-
-
-
-
-
 
